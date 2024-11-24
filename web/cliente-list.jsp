@@ -38,16 +38,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="includecss.jsp" %>
+        <%@include file="include/includecss.jsp" %>
 
         <title>JSP Page</title>
     </head>
     <body>
         <div id="wrapper">
-            <%@include file="includenavbar.jsp" %>
+            <%@include file="include/includenavbar.jsp" %>
             <div id="page-wrapper" class="gray-bg">
-                <%@include file="includenavbarheader.jsp" %>
-                <%@include file="includepageheading.jsp" %>
+                <%@include file="include/includenavbarheader.jsp" %>
+                <%@include file="include/includepageheading.jsp" %>
                 <div class="wrapper wrapper-content animated fadeInRight">
                     <div class="row">
                         <div class="col-lg-12">
@@ -88,9 +88,9 @@
                         </div>
                     </div>
                 </div>
-                <%@include file="includefooter.jsp" %>
+                <%@include file="include/includefooter.jsp" %>
             </div>
         </div>
-        <%@include file="includejs.jsp" %>
+        <%@include file="include/includejs.jsp" %>
     </body>
 </html>
